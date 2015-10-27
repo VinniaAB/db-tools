@@ -1,0 +1,24 @@
+{
+    "name": "vinnia/db-tools",
+    "authors": [
+        {
+            "name": "Johan Björk",
+            "email": "johanimon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vinnia\\DbTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vinnia\\DbTools\\Test\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
